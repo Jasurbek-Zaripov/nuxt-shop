@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+    @apply bg-black w-3 bg-opacity-20
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-gradient-to-b from-teal-600 to-teal-400 rounded-sm
+}
+::-webkit-scrollbar-thumb:hover {
+    @apply bg-gradient-to-t
+}
