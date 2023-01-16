@@ -7,7 +7,7 @@ const cartModalOpen = () => { showCartModal.value = true; };
 </script>
 
 <template>
-  <div class="sticky top-0 left-0 w-full h-20 flex justify-center items-center bg-white shadow-md mb-8 z-50">
+  <div class="sticky top-0 left-0 w-full h-20 flex justify-center items-center bg-white shadow-md mb-8">
     <TheLoader v-show="loading" />
     <div @click="() => navigateTo('/')" role="button">
       <TheImage class="w-20" url="/scarlet_nexus.jpg" alt="logo" />
